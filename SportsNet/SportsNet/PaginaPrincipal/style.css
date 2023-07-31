@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #A668D6;
+    color: #fff;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+header .main {
+    min-width: 930px;
+    max-width: 1360px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 120px;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.nome {
+    margin: 10px;
+    font-family: 'Bebas Neue';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.parteP {
+    background-color: #3D323F;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa {
+    background-color: #3D323F;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.input-busca {
+    position: relative;
+    height: 39px;
+    width: 625px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 12px 12px 12px 22px;
+    border: none;
+}
+
+.container-pesquisa button {
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    padding: 12px 12px 12px 22px;
+}
+
+.container-pesquisa button img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.produtos {
+    font-family: "Nova Flat";
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 18px;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(81, 29, 97);
+}
+
+.linha {
+    background-color: #A668D6;
+    width: 100%;
+    height: 2px;
+}
+
+.camisa {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+    width: 100%;
+    padding: 50px;
+}
+
+.produto-camisa {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px #A668D6 solid;
+}
+
+.c {
+    font-family: "Nova Flat";
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 27px;
+}
+
+.p {
+    font-family: "Nova Flat";
+    display: flex;
+    justify-content:space-between;
+    padding-left: 110px;
+    font-size: 18px;
+    
+}

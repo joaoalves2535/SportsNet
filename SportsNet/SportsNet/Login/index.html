@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nova+Flat&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho main">
+            <div class="logo">
+                <img src="../imagens/Rectangle 27.png" alt="Logo SPORTSNET">
+            </div>
+            <section class="nome">
+                <p>SPORTSNET</p>
+            </section>
+        </div>
+    </header>
+    <main class="login breakpoint">
+        <div class="login__container">
+            <section class="login__form">
+                <span>Já sou cliente</span>
+                <form>
+                    <div type="text" id="input-email" name="email" class="input">
+                        <input placeholder="E-mail, CPF, ou CNPJ" required>
+                    </div>
+                    <div class="input">
+                        <div class="input__icon">
+                            <input type="password" id="input-senha" name="senha" placeholder="Senha" required>
+                            <img src="../imagens/icons8-olho-fechado-24.png" width="20" class="icon__senha">
+                        </div>
+                    </div>
+                    <button type="submit" class="botao__login">ACESSAR CONTA</button>
+                </form>
+            </section>
+            <div class="linha__vertical"></div>
+            <section class="login__form">
+                <span>Criar conta</span>
+                <form>
+                    <div class="input">
+                        <input type="text" id="input-email" name="email" placeholder="Informe seu E-mail" required>
+                    </div>
+                    <button type="submit" class="botao__login">PROSSEGUIR</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

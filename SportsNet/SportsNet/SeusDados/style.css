@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #A668D6;
+    color: #fff;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+header.main {
+    min-width: 930px;
+    max-width: 1360px;
+}
+
+.logo {
+    display: flex;
+    margin-left: 120px;
+    width: 60px;
+    height: 60px;
+}
+
+.nome {
+    margin: 10px;
+    font-family: 'Bebas Neue';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.pesquisa {
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.container-pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.input-busca {
+    position: relative;
+    height: 39px;
+    width: 35vw;
+    background-color: white;
+    border-radius: 25px;
+    padding: 12px 12px 12px 22px;
+    border: none;
+}
+
+.container-pesquisa button {
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    padding: 12px 12px 12px 22px;
+}
+
+.container-pesquisa button img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.opc {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    padding-left: 2%;
+}
+
+.l {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.user {
+    padding-right: 10%;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: "Nova Flat";
+}
+
+.l a:visited {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.linhas {
+    display: flex;
+    font-family: "Nova Flat";
+    font-size: 20px;
+    color: #A668D6;
+    padding: 15px;
+    padding-left: 70px;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 230px;
+    height: 90px;
+    align-items: center;
+    padding-left: 20px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.caixa a {
+    font-size: 20px;
+}
+
+.tela {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0% 0 2% 5%;
+}
+
+.opcs {
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-evenly;
+    float: left;
+    gap: 50px;
+}
+
+.caixa2 {
+    display: flex;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 63vw;
+    height: 720px;
+    padding: 0px 35px 35px 35px;
+    font-family: "Nova Flat";
+    color: #A668D6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 22px;
+}
+
+.caixa2 .dados-pessoais {
+    margin-bottom: 5%;
+}
+
+.tela2 {
+    display: flex;
+    border: solid 2px;
+    border-radius: 15px;
+    width: 58vw;
+    gap: 10px;
+    font-family: "Nova Flat";
+    flex-direction: column;
+    padding: 30px;
+}
